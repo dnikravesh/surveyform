@@ -1,0 +1,33 @@
+body {
+    background-color: #b19cd9;
+    text-align: center;
+}
+
+main {
+    background-color: #F5F6FA;
+    border-radius: 2%;
+}
+
+
+
+.labels {
+    width: 40%;
+    text-align: right;
+    display: inline-block;
+}
+
+.right {
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.inputfield {
+    width: 55%;
+}
+
+.content {
+    margin: 20px 0;
+}

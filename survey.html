@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="survey.css">
+    <title>Survey Page</title>
+</head>
+<body>
+    <main class="container">
+        <h1 id="title">Survey Page</h1>
+        <p id="description">Let us know how we can improve Alifewithpeace?</p>
+        <form action="">
+            <div class="content">
+                <div class="labels">
+                    <label for="name" id="name-label">Name:</label>
+                </div>
+                <div class="right">
+                    <input class="inputfield" type="text" id="name" placeholder="First Name" required>
+                </div>
+                
+            <div>
+            <div class="content">
+                <div class="labels">
+                    <label for="email" id="email-label">Email:</label>
+                </div>
+                <div class="right">
+                <input class="inputfield" type="email" id="email" placeholder="Email" required>
+                </div>
+            <div>
+            <div class="content">
+                <div class="labels">
+                    <label for="age" id="number-label">Age:</label>
+                </div>
+                <div class="right">
+                    <input class="inputfield" type="number" id="age" placeholder="Age" required min="1" max="120">
+                </div>
+            <div>  
+            <div class="content">
+                <div class="labels">
+                    <label for="dropdown">How would you describe yourself:</label>
+                </div>
+                <div class="right">
+                    <select id="dropdown">
+                        <option disabled selected>Please Select an Option</option>
+                        <option value="foodie">Foodie</option>
+                        <option value="gururamdas">Guru Ram Das</option>
+                        <option value="recipenut">Recipe Enthusiast</option>
+                        <option value="notpeaceful">Not Alifewithpeaceful</option>
+                        <option value="none">None of the Above</option>
+                    </select>
+                </div>
+              
+            </div>
+            <div class="content">
+                <div class="labels">
+                    <label for="gender">Gender:</label>
+                </div>
+                <div class="right">
+                    <input class="gender" type="radio" name="gender" value="male">Male <br>
+                    <input class="gender" type="radio" name="gender" value="female">Female <br>
+                    <input class="gender" type="radio" name="gender" value="other">Other <br>
+                </div>
+            </div>
+            <div class="content">
+                <div class="labels">
+                    <label for="useropinion">What would you like to see more of:</label>
+                </div>
+                <div class="right">
+                    <input class="useropinion" type="checkbox" value="foodporn">Foodporn<br>
+                    <input class="useropinion" type="checkbox" value="recipes">Recipes<br>
+                    <input class="useropinion" type="checkbox" value="inspiration">Inspirational Stuff<br>
+                </div>
+                
+            </div>
+            <div class="content">
+                <div class="labels">
+                    <label>Additional Comments:</label>
+                </div>
+                <div class="right">
+                    <textarea class="inputfield" rows="4" cols="50" placeholder="Additional Comments..."></textarea>
+                </div>
+            </div>
+            <button class="btn btn-primary mb-3" id="submit">Submit</button>
+        </form>
+    </main>
+    
+</body>
+</html>
