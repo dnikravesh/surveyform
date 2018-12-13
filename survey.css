@@ -1,11 +1,12 @@
 body {
-    background-color: #b19cd9;
+    background-color: #b19cd9 !important; 
     text-align: center;
 }
 
 main {
     background-color: #F5F6FA;
     border-radius: 2%;
+    margin-top: 40px;
 }
 
 
@@ -30,4 +31,9 @@ main {
 
 .content {
     margin: 20px 0;
+}
+
+#submit {
+  margin: 0 auto;
+  
 }
